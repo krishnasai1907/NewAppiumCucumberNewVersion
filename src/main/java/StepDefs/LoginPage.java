@@ -62,6 +62,6 @@ public class LoginPage {
 
     @Then("User close the Application")
     public void userCloseTheApplication() {
-        driver.close();
+        driver.quit();
     }
 }
